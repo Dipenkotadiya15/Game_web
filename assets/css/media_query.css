@@ -15,8 +15,7 @@
         padding: 0 5px 0 30px;
     }
 
-    .descspan { display: none; }
-    .desc1 { width: 30%; }
+    .desc1 { width: 28%; }
 }
 
 /* ================================================================================================== */
@@ -24,9 +23,7 @@
     .container { max-width: 720px; }
 
     .nav {
-        display: none;
-        top: 22%;
-        left: 5%;
+        display: none; 
     }
 
     .navbtn {
@@ -37,14 +34,10 @@
         display: block;
     }
 
-    .navbar1 {
-        display: flex;
-        padding: 20px 0;
-    }
+    .nav1 li a { padding: 0;}
+    .nav1 li { margin: 10px; }
+    .navbar1 { display: flex; }
 
-    .content {
-        top: 40%;
-    }
 
     .a { margin-top: -85px; }
 
@@ -66,6 +59,7 @@
     .reward2_content { margin-top: 45px; }
 
     .footer11 { width: 40%; }
+    .descspan { display: none; }
         
 }
 
@@ -80,6 +74,7 @@
         padding: 10px 17px;
     }
 
+    .nav1 { top: 60px;}
     .desc1 { width: 100%;  }
     .navbtn button { padding: 5px 15px; font-size: 20px; } 
     .navbar span { font-size: 28px; }
@@ -89,6 +84,7 @@
     .reward2_content { justify-content: space-around; }
     .abc22 { padding-bottom: 25px; }
     .footer11 { width: 100%; }
+    .use_link { width: 100%; }
 }
 
 /* ================================================================================================== */
@@ -104,7 +100,6 @@
     .content { 
         font-size: 50px;
         letter-spacing: 25px;
-        top: 36%;
     }
 
     .b1 {
@@ -125,6 +120,7 @@
 @media screen and (max-width:425px) {
     .nav li a:hover, .nav li .active { font-size: 20px; }
 
+    .nav1 { top: 45px; }
     .content { font-size: 40px; }
     .b1 { width: 100%; }
     .bg_2 { margin-top: 100px; }
